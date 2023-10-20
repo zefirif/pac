@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document </title>
+
+    <style>
+        body{
+            background-color: darkslategray;       
+         }
+        .cercle-rouge {
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        #id1 {
+            background-color: yellow;
+        }
+        #gre {
+            background-color: rgb(119, 230, 8);
+        }
+
+    </style>
+
+</head>
+<body>
+ <div class="cercle-rouge"></div>
+ <div class="cercle-rouge" id="id1"></div>
+ <div class="cercle-rouge" id="gre"></div>  
+ <script>
+    var elem = document.getElementById("id1")
+    console.log(elem)
+ </script> 
+</body>
+</html>
